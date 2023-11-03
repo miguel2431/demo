@@ -1,0 +1,10 @@
+jobs:
+  PowerShellDemo:
+    name: "PowerShell Demo"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Build Module
+        shell: pwsh
+        run: |
+          Write-Host "File example.txt"
